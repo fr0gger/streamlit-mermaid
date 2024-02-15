@@ -18,7 +18,7 @@ else:
     _streamlit_mermaid = components.declare_component("streamlit_mermaid", path=build_dir)
 
 
-def st_mermaid(code: str, width="auto", height="250px", key=None):
+def st_mermaid(code: str, width="auto", height="750px", key=None):
     return _streamlit_mermaid(code=code, width=width, height=height, key=key)
 
 
